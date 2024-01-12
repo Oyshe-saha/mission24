@@ -1,0 +1,139 @@
+
+
+
+ *{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    width: 82%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.container2{
+    width: 82%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+    justify-content: center;
+}
+.banner{
+    background-image: url('banner.png');
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.sub-title{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 212px;
+height: 32px;/*
+padding: 145px 435px 314px 434px   ;*/
+
+padding: 177px 531px 383px 530px;
+}
+.main-title{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px; /*
+width: 518px;
+height: 155px;/*
+padding: 190px 282px 145px 282px ;
+padding: 233px 344px 177px 344px;*/
+}
+.holiday{
+    gap: 20px;
+    width: 1200px;
+height: 600px;
+align-items: center;
+}
+.holiday-text{
+    text-align: center;
+}
+.holiday .holiday-text h1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.holiday .holiday-text h6{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.holiday.holiday-text h4{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.holiday-img{
+    align-items: center;
+    margin: 25px 100px  200px 150px;
+    width: 500px;
+    height: 300px;
+    padding: 30px;
+}
+.welcome{
+    background-image: url('party.png');
+    margin-top: 200px;
+    width: 1320px;
+    height: 600px;
+}
+.welcome.welcome-text h1{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; 
+letter-spacing: 7.04px;
+width: 642px;
+height: 176px;
+padding: 126px 552px 298px 126px ;
+}
+.welcome.welcome-text p{
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+width: 697px;
+height: 60px;
+}
+a{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+width: 100px;
+height: 25px;
+}
+.welcome-text{
+    text-align: left;
+}
