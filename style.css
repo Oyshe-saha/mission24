@@ -1,4 +1,6 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+
 
 
  *{
@@ -9,11 +11,24 @@
     width: 82%;
     max-width: 1320px;
     margin: 0 auto;
+    font-family: 'Merriweather', serif;
 }
 .container2{
     width: 82%;
     max-width: 1320px;
     margin: 0 auto;
+    font-family: Inter;
+
+}
+p{
+    color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+margin-bottom: 20px;
 }
 header{
     text-align: center;
@@ -34,9 +49,10 @@ font-weight: 400;
 line-height: normal;
 width: 212px;
 height: 32px;/*
-padding: 145px 435px 314px 434px   ;*/
+padding: 145px 435px 314px 434px   ;
 
-padding: 177px 531px 383px 530px;
+padding: 177px 531px 383px 530px;*/
+padding: 300px;
 }
 .main-title{
     color: #FFF;
@@ -100,7 +116,7 @@ line-height: normal;
     width: 1320px;
     height: 600px;
 }
-.welcome.welcome-text h1{
+.welcome .welcome-text h1{
     color: #FFF;
 font-family: Merriweather;
 font-size: 64px;
@@ -110,9 +126,9 @@ line-height: 88px;
 letter-spacing: 7.04px;
 width: 642px;
 height: 176px;
-padding: 126px 552px 298px 126px ;
+padding: 80px 200px ;
 }
-.welcome.welcome-text p{
+.welcome .welcome-text p{
     color: rgba(255, 255, 255, 0.80);
 font-family: Inter;
 font-size: 18px;
@@ -136,4 +152,92 @@ height: 25px;
 }
 .welcome-text{
     text-align: left;
+padding: 80px 200px ;
+
+}
+.now{
+    background-color: rgba(182, 98, 161, 0.1) ;
+    margin-top: 100px;
+    align-items: center;
+    padding: 50px 200px ;
+    margin-bottom: 100px;
+}
+span{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; 
+text-transform: capitalize;
+}
+#join-now h5{
+    color: #070211;
+font-family: Inter;
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+}
+button{
+    border-radius: 8px;
+background: #F00;
+display: inline-flex;
+padding: 15px 28px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.portfolio-text h5{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.portfolio-text h3{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+gap:15px;
+
+}
+.subscribe{
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+width: 1320px;
+height: 500px;
+margin-top: 100px;
+}
+.newsletter{
+    align-items: center;
+    padding: 15px;
+}
+.newsletter img{
+    padding: 15px 500px 20px 500px;
+}
+.newsletter h4 {
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.newsletter p{
+    text-align: center;
+}
+.subscribe.form input{
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
 }
